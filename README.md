@@ -2,7 +2,7 @@
 
 **Analista de Negócios JR | Formando em Ciência da Computação**
 
-Passei um tempo trabalhando com o público antes da faculdade, e foi na área de tecnologia que descobri minha verdadeira paixão: **programar**.  
+Passei um tempo trabalhando com o público antes da faculdade, e foi na faculdade que descobri minha verdadeira paixão: **tecnologia**.  
 Hoje, me dedico ao desenvolvimento **backend em Python**, com foco em **projetos de Inteligência Artificial Generativa** e **automação**.
 
 ---
