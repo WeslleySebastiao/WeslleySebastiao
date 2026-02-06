@@ -1,6 +1,6 @@
 # Olá, eu sou o Weslley.
 
-**Analista de Negócios JR
+**Analista de Negócios JR**
 
 Passei um tempo trabalhando com o público antes da faculdade, e foi na faculdade que descobri minha verdadeira paixão: **tecnologia**.  
 Hoje, me dedico ao desenvolvimento **backend em Python**, com foco em **projetos de Inteligência Artificial Generativa** e **automação**.
