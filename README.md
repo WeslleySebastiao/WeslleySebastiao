@@ -31,9 +31,11 @@ Hoje, me dedico ao desenvolvimento **backend em Python**, com foco em **projetos
 ---
 
 ## Projetos em Destaque
+- **ChatLLM** → Sistema completo de **orquestração, criação e execução de agentes de IA**, focado em modularidade e automação.
+- - **Coordina** → Plataforma para criação e execução de agentes de IA inteligentes e personalizáveis.  
 - **Luna AI** → Orquestrador de agentes de IA com integração em múltiplos serviços e vetores de conhecimento.  
-- **TCC – Agentes Conversacionais** → Plataforma para criação e execução de agentes de IA inteligentes e personalizáveis.  
-- **Nova Plataforma (em desenvolvimento)** → Sistema completo de **orquestração, criação e execução de agentes de IA**, focado em modularidade e automação.
+
+
 
 ---
 
