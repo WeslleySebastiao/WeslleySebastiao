@@ -72,11 +72,10 @@ Gosto de entender o **porquê** das coisas: não basta funcionar, tem que fazer 
 
 <div align="center">
 
-  <img height="160em"
-       src="https://github-readme-stats.vercel.app/api?username=WeslleySebastiao&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" />
+  <img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" width="100%" />
 
-  <img height="160em"
-       src="https://github-readme-stats.vercel.app/api/top-langs/?username=WeslleySebastiao&layout=compact&langs_count=7&theme=tokyonight" />
+  <img src="./profile-summary-card-output/tokyonight/3-stats.svg" width="49%" />
+  <img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" width="49%" />
 
 </div>
 
