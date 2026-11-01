@@ -13,6 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      # Gera só o tema base; o commit é feito depois da recoloração
       - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
@@ -20,3 +22,28 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
           BRANCH_NAME: main
           UTC_OFFSET: -3
+          THEME: tokyonight
+          AUTO_PUSH: false
+          NAME: Weslley Sebastião
+
+      # Paleta Vetor: tinta, giz, grafite e laranja
+      - name: Recolorir para a paleta Vetor
+        run: |
+          src=profile-summary-card-output/tokyonight
+          dst=profile-summary-card-output/vetor
+          mkdir -p "$dst"
+          for f in "$src"/*.svg; do
+            sed -e 's/#1a1b27/#0E1116/gI' \
+                -e 's/#70a5fd/#ECEAE4/gI' \
+                -e 's/#38bdae/#9AA3B2/gI' \
+                -e 's/#bf91f3/#FF6B2C/gI' \
+                "$f" > "$dst/$(basename "$f")"
+          done
+
+      - name: Commit dos cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A profile-summary-card-output
+          git diff --cached --quiet || git commit -m "Atualizar cards do perfil"
+          git push

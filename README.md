@@ -72,10 +72,10 @@ Gosto de entender o **porquê** das coisas: não basta funcionar, tem que fazer 
 
 <div align="center">
 
-  <img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" width="100%" />
+  <img src="./profile-summary-card-output/vetor/0-profile-details.svg" width="100%" />
 
-  <img src="./profile-summary-card-output/tokyonight/3-stats.svg" width="49%" />
-  <img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" width="49%" />
+  <img src="./profile-summary-card-output/vetor/3-stats.svg" width="49%" />
+  <img src="./profile-summary-card-output/vetor/2-most-commit-language.svg" width="49%" />
 
 </div>
 
