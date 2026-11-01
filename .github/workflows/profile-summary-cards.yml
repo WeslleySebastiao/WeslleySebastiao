@@ -37,6 +37,9 @@ jobs:
                 -e 's/#70a5fd/#ECEAE4/gI' \
                 -e 's/#38bdae/#9AA3B2/gI' \
                 -e 's/#bf91f3/#FF6B2C/gI' \
+                -e 's/#3572A5/#FF6B2C/gI' \
+                -e 's/#3178c6/#ECEAE4/gI' \
+                -e 's/#f1e05a/#5C6575/gI' \
                 "$f" > "$dst/$(basename "$f")"
           done
 
